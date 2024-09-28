@@ -1,0 +1,77 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Estilos del BODY */
+/* Estilos SECTION : INFORMACION */
+.Information {
+    padding: 50px;
+    height: 600px;
+    background-image: url(assets/images/Fondo-Local.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+
+}
+
+.Information > h2 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo negro semi-transparente */
+
+}
+
+.Information > p {
+    line-height: 1.5;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Estilos del BOX : MISION Y VISION */
+.Box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
+}
+
+.Box h2{
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    padding: 10px;
+}
+
+.Box p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.Vision {
+    background-color: #e9e06d;
+    padding: 20px;
+    width: 40%;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Mision {
+    background-color: #e9e06d;
+    padding: 20px;
+    width: 40%;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
